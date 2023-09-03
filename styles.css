@@ -1,0 +1,170 @@
+
+body{
+  background:goldenrod;
+  color: black;
+  font-family: 'Cinzel', serif;
+  margin: 50px;
+}
+.head h1{
+  font-size: 2vw;
+}
+
+
+.alibongo{
+  padding: 10px;
+  font-size: 3vh;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+ 
+}
+.alibongo a{
+  margin: 50px;
+  top: 40px;
+}
+img{
+  
+  border-radius: 50% 50%;
+  margin: 20px;
+  height: 10vh;
+  width: 10vw;
+  box-shadow: 1px 1px 1px -1px whitesmoke;
+  
+}
+
+
+.alignnns{
+  position: relative;
+  left:  30px;
+  
+}
+
+.audio-option {
+
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 2vh;
+  margin: 25px;
+  transition: background-color 0.2s ease-in-out;
+  transition: transform 250ms;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  
+}
+
+.col-sm-2{
+  padding: 20px;
+  margin: 20px;
+
+  
+}
+ h6{
+ 
+  left: 21%;
+  font-size: 22px;
+  position: relative;
+  
+}
+.ones{
+  background-image: url("./photos/lbc.jpg");
+  background-size: cover;
+ 
+  
+}
+
+.twos{
+  background-image: url("./photos/c300.jpg");
+  background-size: cover;
+}
+.threes{
+  background-image: url("./photos/takst.jpg");
+  background-size: cover;
+
+}
+.fours{
+  background-image: url("/photos/itv.png");
+  
+  background-size: cover;
+
+}
+.fives{
+  background-image: url("./photos/smthrd.jpg");
+  background-size: cover;
+
+}
+.sixs{
+  
+  background-image: url("./photos/radnig.jpg");
+  background-size: cover;
+
+}
+.sevens{
+  background-image: url("./photos/jazz.png");
+  background-size: cover;
+
+}
+.eights{
+  background-image: url("./photos/WAZOBIAa.png");
+  background-size: cover;
+
+}
+
+.fa-brands{
+  color: black;
+}
+
+.fa-solid{
+  color: black;
+}
+
+.audio-option:hover {
+  transform: translateY(-10px);
+}
+
+#play-pause-button.play {
+  background-color: #121614;
+  transform: rotate(0deg);
+  border-radius: 50%;
+  font-size: 30px;
+  color: rgb(226, 220, 220);
+}
+
+#play-pause-button.pause {
+  background-color: whitesmoke;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  font-size: 30px;
+  color: black;
+}
+
+#play-pause-button {
+
+  border: none;
+  border-radius: 50%;
+  padding: 60px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+
+#myVideo{
+  height: 120px;
+  width: 120px;
+}
+
+.footer {
+ 
+ 
+  color: black;  
+  align-items: center;
+  text-align: center;
+  top: 50px;
+  
+ }
